@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+}
+
+.home-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.logo {
+    object-fit: cover;
+}

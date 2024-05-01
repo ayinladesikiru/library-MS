@@ -1,7 +1,7 @@
+from django.views.generic import TemplateView
 from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('hello/', views.greet),
-    path('hello/<str:name>/', views.greet_me)
+    path('', TemplateView.as_view(template_name='demo/index.html')),
 ]

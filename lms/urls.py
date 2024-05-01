@@ -26,7 +26,7 @@ admin.site.index_title = 'Librarian administration'
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("__debug__/", include("debug_toolbar.urls")),
-    path('demo/', include('demo.urls')),
+    path('', include('demo.urls')),
     path('catalog/', include('catalog.urls')),
     path('auth/', include('djoser.urls')),
     path('auth/', include('djoser.urls.jwt')),
